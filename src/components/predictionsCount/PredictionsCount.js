@@ -10,8 +10,8 @@ const PredictionsCount = ({ name, entries }) => {
       </h4>
       <p>
         This app knows how to recognize ingredients from photos containing food.
-        Just choose any photo and copy paste the URL. Tetsed with .jpg and .png
-        image format
+        Just choose any photo from the web and copy paste the URL. Tested with
+        .jpg and .png image format
       </p>
     </div>
   );

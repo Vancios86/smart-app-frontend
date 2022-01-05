@@ -22,8 +22,8 @@
 .dataDisplay p {
   max-width: 888px;
   font-variant-caps: small-caps;
-  -webkit-text-emphasis: open;
-          text-emphasis: open;
+  -webkit-text-emphasis: open var(--pink);
+          text-emphasis: open var(--pink);
   font-variant-numeric: oldstyle-nums;
 }
 /*# sourceMappingURL=DataDisplay.css.map */
