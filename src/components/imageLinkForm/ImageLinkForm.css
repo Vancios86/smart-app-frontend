@@ -1,0 +1,52 @@
+.imageLinkForm {
+  border: 2px solid black;
+  border-radius: 9px;
+  width: 777px;
+  max-height: 777px;
+  margin: 6rem 1rem 1rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0.12rem 0.12rem 0.99rem 0.12rem black;
+          box-shadow: 0.12rem 0.12rem 0.99rem 0.12rem black;
+  z-index: 99;
+}
+
+.imageLinkForm input {
+  width: 88%;
+  height: 2rem;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.66);
+  padding-left: 6px;
+}
+
+.imageLinkForm button {
+  margin: 1rem 0 1rem 0;
+  border: 2px solid black;
+  width: 212px;
+  height: 33px;
+  border-radius: 9px;
+  background: transparent;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 0.33s ease-in-out;
+  transition: -webkit-transform 0.33s ease-in-out;
+  transition: transform 0.33s ease-in-out;
+  transition: transform 0.33s ease-in-out, -webkit-transform 0.33s ease-in-out;
+}
+
+.imageLinkForm button:hover {
+  -webkit-transform: scale(1.033);
+          transform: scale(1.033);
+  background-color: rgba(255, 187, 204, 0.3);
+}
+/*# sourceMappingURL=ImageLinkForm.css.map */

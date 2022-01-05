@@ -1,0 +1,27 @@
+// @import '../ReactParallaxTilt.scss';
+
+.parallax-effect-glare-scale {
+  width: 99px;
+  height: 99px;
+  border: 2px solid var(--pink);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0.12rem 0.12rem 1rem 0.12rem var(--pink);
+  transform-style: preserve-3d;
+  z-index: 99;
+
+  .inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    color: var(--pink);
+    transform: translateZ(60px);
+  }
+}

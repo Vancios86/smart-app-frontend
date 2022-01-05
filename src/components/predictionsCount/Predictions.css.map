@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;CAOhB;;AAVD,AAIE,iBAJe,CAIf,CAAC,CAAC;EACA,SAAS,EAAE,KAAK;CACjB;;AANH,AAOE,iBAPe,CAOf,EAAE,GAAG,WAAW,CAAC;EACf,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "Predictions.scss"
+    ],
+    "names": [],
+    "file": "Predictions.css"
+}

@@ -1,0 +1,92 @@
+* {
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+body {
+  --purple: #5900ff;
+  --pink: #ffbbcc;
+  margin: 0;
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(88deg, var(--purple), var(--pink));
+}
+
+.centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parallax-effect-glare-scale {
+  width: 99px;
+  height: 99px;
+  border: 2px solid var(--pink);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  -webkit-box-shadow: 0.12rem 0.12rem 1rem 0.12rem var(--pink);
+          box-shadow: 0.12rem 0.12rem 1rem 0.12rem var(--pink);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  z-index: 99;
+}
+
+.parallax-effect-glare-scale .inner-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--pink);
+  -webkit-transform: translateZ(60px);
+          transform: translateZ(60px);
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+/*# sourceMappingURL=base.css.map */

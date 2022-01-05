@@ -1,0 +1,15 @@
+.photo {
+  padding: 1rem;
+  //
+  // max-height: 99%;
+  overflow: hidden;
+  img {
+    display: block;
+    border-radius: 9px;
+    max-height: 555px;
+    max-width: 99%;
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 3px 3px 9px 3px var(--pink);
+  }
+}

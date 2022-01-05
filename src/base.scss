@@ -1,0 +1,25 @@
+* {
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+body {
+  --purple: #5900ff;
+  --pink: #ffbbcc;
+  margin: 0;
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(88deg, var(--purple), var(--pink));
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import "./components/logo/Logo.scss";
+@import "./components/navigation/Navigation.scss";

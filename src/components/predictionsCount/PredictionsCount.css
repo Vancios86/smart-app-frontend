@@ -1,0 +1,17 @@
+.predictionsCount {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 4.5rem;
+  font-size: 18px;
+}
+
+.predictionsCount p {
+  max-width: 888px;
+}
+
+.predictionsCount h4 > span {
+  color: #e60000;
+}
+/*# sourceMappingURL=PredictionsCount.css.map */

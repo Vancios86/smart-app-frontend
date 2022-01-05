@@ -1,0 +1,18 @@
+.photo {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.photo img {
+  display: block;
+  border-radius: 9px;
+  max-height: 555px;
+  max-width: 99%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-box-shadow: 3px 3px 9px 3px var(--pink);
+          box-shadow: 3px 3px 9px 3px var(--pink);
+}
+/*# sourceMappingURL=AIPredict.css.map */
